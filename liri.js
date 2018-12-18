@@ -30,7 +30,7 @@ if(!chooseAPI) {
     })
 
 } else if (chooseAPI === "concert-this") {
-    if (!!returnResult) {
+    if (!returnResult) {
         console.log('You must enter an artist')
     } else {
         var artist = returnResult
